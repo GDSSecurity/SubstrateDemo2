@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperMath</string>
+    <string name="splash_screen_text">SuperMath</string>
+    <string name="splash_screen_icon_credit">phuongkutenkool.deviantart.com</string>
+    <string name="title_activity_show_math_ops">ShowMathOps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

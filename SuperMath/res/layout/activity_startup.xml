@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--
+    Launcher image src - http://www.deviantart.com/art/Minion-PNG-388610563
+     -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/minion" />
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true"
+        android:text="@string/splash_screen_text"
+        android:textColor="#00ccff"
+        android:textStyle="bold"
+        android:textSize="44sp" />
+
+</RelativeLayout>
